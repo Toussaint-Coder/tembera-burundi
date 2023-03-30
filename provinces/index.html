@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provinces du burundi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <!--- navigation -->
+   <div class="w-full p-[40px]  flex cols-3 items-center sticky top-0 bg-black z-10 md">
+        <div class="w-full relative">
+          <img src="../assets/web.png" class="w-[90px] absolute top-0 -translate-y-12" alt="">
+        </div>
+        <div class="w-full justify-center xl:block lg:block md:block sm:hidden">
+            <ul class="flex gap-[20px] text-white/70 ">
+                <li><a class="duration-700 hover:text-white flex items-center" href="../index.html"><i class="fa-sharp fa-solid fa-house mx-2"></i>Accueil</a></li>
+                <li><a class="duration-700 hover:text-white flex items-center" href="./provinces/index.html"><i class="fa-sharp fa-solid fa-location-dot mx-2"></i>Provinces</a></li>
+                <li><a class="duration-700 hover:text-white flex items-center" href="./"><i class="fa-sharp fa-solid fa-hippo mx-2"></i>Tourisme</a></li>
+                <li><a class="duration-700 hover:text-white flex items-center" href="./"><i class="fa-sharp fa-solid fa-book mx-2"></i>Histoire</a></li>
+                <li><a class="duration-700 hover:text-white flex items-center" href="./"><i class="fa-sharp fa-solid fa-tree-city mx-2"></i>Hotels</a></li>
+            </ul>
+        </div>
+        <div class="w-full flex justify-end">
+          <a href="../index.html#login">
+            <button class="border-none bg-white duration-700 rounded-md p-2 hover:shadow-xl hover:shadow-black/50 focus:ring focus:ring-offset-2 focus:ring-white/50"><i class="fa-sharp fa-solid fa-bell mx-2"></i>S'abonner</button>
+          </a>
+        </div>
+    </div>
+    
+    <!-----  /navigation  --->
+      <div class="flex items-center justify-center gap-10px flex-wrap homebar h-[30rem]">
+      
+            <div class="w-[50rem] text-center lg:w-[50rem] sm:w-full">
+                <div class="w-full flex justify-center items-center flex-wrap flex-col gap-2 relative">
+                    <input type="text" placeholder="Rechercher un province.." class="w-2/4 rounded-full text-white p-3 bg-transparent outline-none border-white border-2" id="search-input">
+                    <div class="w-2/4 p-2 bg-white absolute top-0 translate-y-[60px] rounded-xl hidden" id="search-items">
+                        <ul class="text-start">
+                           
+                                <a href="" class="text-black/80 mb-3">
+                                     <li class="w-full duration-700 hover:bg-gray-600 hover:text-white p-1 rounded-lg justify-between flex ">
+                                        <span class="searched">Gitega</span>
+                                        <i class="fa-sharp fa-solid fa-location-dot mx-2"></i>
+                                     </li>
+                                </a>
+                            
+                            
+                                <a href="" class="text-black/80 mb-3">
+                                    <li class="w-full duration-700 hover:bg-gray-600 hover:text-white p-1 rounded-lg justify-between flex ">
+                                        <span class="searched">Ngozi</span>
+                                        <i class="fa-sharp fa-solid fa-location-dot mx-2"></i>
+                                    </li>
+                                    </a>
+                            
+                                <a href="" class="text-black/80 mb-3">
+                                    <li class="w-full duration-700 hover:bg-gray-600 hover:text-white p-1 rounded-lg justify-between flex ">
+                                        <span class="searched">Bubanza</span>
+                                        <i class="fa-sharp fa-solid fa-location-dot mx-2"></i>
+                                    </li>
+                                </a>
+                            
+                            
+                                <a href="" class="text-black/80 mb-3">
+                                    <li class="w-full duration-700 hover:bg-gray-600 hover:text-white p-1 rounded-lg justify-between flex ">
+                                        <span class="searched">Bujumbura Rural</span>
+                                        <i class="fa-sharp fa-solid fa-location-dot mx-2"></i>
+                                    </li>
+                                </a>
+                            
+                            
+                                <a href="" class="text-black/80 mb-3">
+                                    <li class="w-full duration-700 hover:bg-gray-600 hover:text-white p-1 rounded-lg justify-between flex ">
+                                        <span class="searched">Bujumbura Mairie</span>
+                                        <i class="fa-sharp fa-solid fa-location-dot mx-2"></i>
+                                    </li>
+                                </a>
+                            
+                            
+                                <a href="" class="text-black/80 mb-3">
+                                    <li class="w-full duration-700 hover:bg-gray-600 hover:text-white p-1 rounded-lg justify-between flex ">
+                                        <span class="searched">Bururi</span>
+                                        <i class="fa-sharp fa-solid fa-location-dot mx-2"></i>
+                                    </li>
+                                </a>  
+                            
+                                <a href="" class="text-black/80 mb-3">
+                                    <li class="w-full duration-700 hover:bg-gray-600 hover:text-white p-1 rounded-lg justify-between flex ">
+                                        <span class="searched">Cankuzo</span>
+                                        <i class="fa-sharp fa-solid fa-location-dot mx-2"></i>
+                                    </li>
+                                </a>
+                            
+                                <a href="" class="text-black/80 mb-3">
+                                    <li class="w-full duration-700 hover:bg-gray-600 hover:text-white p-1 rounded-lg justify-between flex ">
+                                        <span class="searched">Cibitoke</span>
+                                        <i class="fa-sharp fa-solid fa-location-dot mx-2"></i>
+                                    </li>
+                                </a>
+                            
+                                <a href="" class="text-black/80 mb-3">
+                                    <li class="w-full duration-700 hover:bg-gray-600 hover:text-white p-1 rounded-lg justify-between flex ">
+                                        <span class="searched">Karuzi</span>
+                                        <i class="fa-sharp fa-solid fa-location-dot mx-2"></i>
+                                    </li>
+                                </a>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-white lg:text-md md:p-3 lg:text-base md:text-sm sm:p-3 duration-700">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Blanditiis odit molestias exercitationem perferendis quis cum ullam aut. 
+                     Modi fuga ad ut veritatis expedita facere dicta hic. Odio pariatur quaerat
+                      eligendi quia reprehenderit temporibus provident.
+                </p>
+            </div>
+         </div>
+     </div>
+</body>
+</html>

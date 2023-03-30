@@ -1,0 +1,7 @@
+.homebar{
+    height: calc(100vh - 7rem);
+    background: linear-gradient(45deg , #000000c5 , #000000c5), url(/assets/gitega.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}   
